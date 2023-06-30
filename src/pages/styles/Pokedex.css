@@ -1,0 +1,42 @@
+.poke__cont{
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    
+}
+.form__cont{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 2fr 0.4fr;
+    justify-content: space-between;  
+}
+.form__search{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 350px;
+    height: 40px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+.input__search{
+    border: none;
+    width: 4fr;
+}
+.btn__search{
+    width: 1fr;
+    background-color: rgb(236, 70, 70);
+    border: none;
+    color: white;
+    
+}
+.select__cont{
+    max-width: 250px;
+    min-width: 110px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+.options{
+    width: 100%;
+    border: none;  
+}
